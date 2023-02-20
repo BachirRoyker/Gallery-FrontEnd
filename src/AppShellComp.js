@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import Paintings from "./Paintings";
+import Painting from "./Painting";
 
 function AppShellComp() {
   const theme = useMantineTheme();
@@ -51,6 +52,7 @@ function AppShellComp() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/paintings" element={<Paintings />} />
+          <Route path="/painting/:id" element={<Painting />} />
         </Routes>
       </AppShell>
     </Router>

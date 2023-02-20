@@ -1,8 +1,8 @@
 import { Carousel } from "@mantine/carousel";
 import { Card, Divider, Group, Image, Text } from "@mantine/core";
-import { Link } from "@mantine/tiptap";
+import { Link } from "react-router-dom";
 import React from "react";
-function PaintingsByCreator() {
+function paintingByCreator() {
   return (
     <>
       <Divider
@@ -34,7 +34,7 @@ function PaintingsByCreator() {
             withBorder
             component={Link}
             variant="link"
-            to="/paintings/1"
+            to="/painting/1"
           >
             <Card.Section>
               <Image
@@ -65,7 +65,7 @@ function PaintingsByCreator() {
             withBorder
             component={Link}
             variant="link"
-            to="/paintings/1"
+            to="/painting/1"
           >
             <Card.Section>
               <Image
@@ -96,7 +96,7 @@ function PaintingsByCreator() {
             withBorder
             component={Link}
             variant="link"
-            to="/paintings/1"
+            to="/painting/1"
           >
             <Card.Section>
               <Image
@@ -127,7 +127,7 @@ function PaintingsByCreator() {
             withBorder
             component={Link}
             variant="link"
-            to="/paintings/1"
+            to="/painting/1"
           >
             <Card.Section>
               <Image
@@ -158,7 +158,7 @@ function PaintingsByCreator() {
             withBorder
             component={Link}
             variant="link"
-            to="/paintings/1"
+            to="/painting/1"
           >
             <Card.Section>
               <Image
@@ -189,7 +189,7 @@ function PaintingsByCreator() {
             withBorder
             component={Link}
             variant="link"
-            to="/paintings/1"
+            to="/painting/1"
           >
             <Card.Section>
               <Image
@@ -216,4 +216,4 @@ function PaintingsByCreator() {
     </>
   );
 }
-export default PaintingsByCreator;
+export default paintingByCreator;

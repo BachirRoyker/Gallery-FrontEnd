@@ -1,6 +1,6 @@
 import { Carousel } from "@mantine/carousel";
 import { Card, Divider, Group, Image, Text } from "@mantine/core";
-import { Link } from "@mantine/tiptap";
+import { Link } from "react-router-dom";
 import React from "react";
 function PaintingsByTechnique() {
   return (

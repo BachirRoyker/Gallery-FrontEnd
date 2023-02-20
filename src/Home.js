@@ -10,7 +10,7 @@ import {
   Text,
   Title,
 } from "@mantine/core";
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 function Home() {
   return (
